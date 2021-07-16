@@ -347,7 +347,6 @@ button{
         width: 45em;
         height: 25em;
         margin-left: -30px;
-        border: 1px solid white;
         z-index: -50;
     }
 
@@ -396,5 +395,9 @@ button{
 
     .cta{
         flex-direction: row;
+    }
+
+    .p-tile .right img{
+        width: 100%;
     }
 }
