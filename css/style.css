@@ -14,6 +14,7 @@ body{
     color: hsla(0, 0%, 100%, 0.596);
     background-color: #051F2C;
     height: 100%;
+    position: relative;
     overflow-x: hidden;
 }
 
@@ -93,9 +94,19 @@ body{
 
 .navbar{
     width: 100%;
-    padding: 10px 0px;
+    height: 9vh;
+    padding: 0px;
+    position: relative;
+    top: 0;
+    background-color: #051F2C;
+    transition: all 0.3s ease;
     /* border: 1px solid white; */
 }
+
+.stickyH {
+    position: fixed;
+    /* background-color: #f5514e; */
+  }
 
 .nav-container{
     display: flex;
@@ -122,7 +133,6 @@ body{
     width: 60em;
     padding: 20px;
     transition: all 0.3s ease; 
-    background-color: #051F2C;
 }
 
 .navlinks li{
@@ -146,7 +156,9 @@ body{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: #051F2C;
 }
 
 .burger{
@@ -289,6 +301,17 @@ button{
 
 .cta{
     flex-direction: column;
+}
+
+.scrollToTop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 20px;
+}
+
+.p-tile .right{
+    display: none;
 }
 
 @media screen and (min-width: 55em) {
