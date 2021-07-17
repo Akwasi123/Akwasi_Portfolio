@@ -420,6 +420,10 @@ button{
         flex-direction: row;
     }
 
+    .p-tile .right{
+        display: block;
+    }
+
     .p-tile .right img{
         width: 100%;
     }
