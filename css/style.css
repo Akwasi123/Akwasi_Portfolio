@@ -433,4 +433,8 @@ button{
     .p-tile .right img{
         width: 100%;
     }
+
+    .name{
+        font-size: 4.5rem;
+    }
 }
